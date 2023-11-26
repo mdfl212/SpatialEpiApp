@@ -1,31 +1,9 @@
-# SpatialEpiApp
-
-
-<img src="https://paula-moraga.github.io/img/blogimg/2018-01-04_SpatialEpiApp/animation.gif" width="100%">
-
-
-The R package [SpatialEpiApp](https://CRAN.R-project.org/package=SpatialEpiApp) runs a [Shiny](https://shiny.rstudio.com/) web application that allows to visualize spatial and spatio-temporal disease data, estimate disease risk, and detect clusters. The application incorporates modules for
-
-- Disease risk estimation using Bayesian hierarchical models with [INLA](http://www.r-inla.org),
-
-- Detection of clusters using the scan statistics implemented in [SaTScan](http://www.satscan.org),
-
-- Interactive visualizations such as maps supporting padding and zooming and tables that allow for filtering,
-
-- Generation of reports containing the analyses performed.
-
-
-`SpatialEpiApp` allows user interaction and creates interactive visualizations by using the R packages [Leaflet](https://rstudio.github.io/leaflet/) for rendering maps, [dygraphs](https://rstudio.github.io/dygraphs/) for plotting time series, and [DataTables](https://rstudio.github.io/DT/) for displaying data objects. It also enables the generation of reports containing the analyses performed by using [RMarkdown](http://rmarkdown.rstudio.com/).
-
-`SpatialEpiApp` may be useful for many researchers working in health surveillance lacking the adequate statistical and programming skills to effectively use the statistical software required to conduct the statistical analyses.
-With `SpatialEpiApp`, we simply need to upload the map and data and then click the buttons that create the input files required, execute the software and process the output to generate tables of values and plots with the results.
-
-This [blog post](https://paula-moraga.github.io/blog/2018/01/04/2018-01-04_spatialepiapp/), and the package [vignette](https://cran.r-project.org/web/packages/SpatialEpiApp/vignettes/manual.pdf) can be checked for more details about its use, methods and examples. Data for running examples are in https://Paula-Moraga.github.io/software
-
-
-**References**
-
-Moraga, P. (2017), [SpatialEpiApp: A Shiny Web Application for the analysis of Spatial and Spatio-Temporal Disease Data](https://doi.org/10.1016/j.sste.2017.08.001). Spatial and Spatio-temporal Epidemiology, 23:47-57
+![](https://shiny-app-store3.s3.amazonaws.com/approvedapp/s979_mIsGHfNaNnjgOnasMUOKmVa6P4TCbbAY6ksRKZRi_logo_336.jpg)
 
 
 
+# SpatialEpiApp: Effortless Analysis of Spatial and Spatio-temporal Disease Data
+
+#### Use app online: __[www.shinyappstore.com/a/SpatialEpiApp](https://shinyappstore.com/a/SpatialEpiApp)__
+
+SpatialEpiApp is an application designed for visualizing spatial and spatio-temporal disease data, estimating disease risk, and identifying clusters. It integrates modules for disease risk estimation using Bayesian hierarchical models with INLA, cluster detection using scan statistics in SaTScan, and interactive visualizations including maps with zooming and panning, and filterable tables. The app also enables report generation summarizing the analyses conducted. SpatialEpiApp facilitates user interaction through R packages like Leaflet for maps, dygraphs, and more. This tool is particularly valuable for health surveillance researchers lacking advanced statistical and programming skills. With SpatialEpiApp, users can easily upload maps and data, and more. It serves as a comprehensive app for disease risk estimation, cluster detection, and interactive spatial and spatio-temporal visualization. Original publication: Paula Moraga. Spat Spatiotemporal Epidemiol. 2017 Nov:23:47-57.
