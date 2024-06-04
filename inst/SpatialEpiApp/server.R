@@ -1,9 +1,6 @@
 # By default the file size limit is 5MB. Here limit is 70MB.
 options(shiny.maxRequestSize = 70*1024^2)
 
-# Increase memory limit
-memory.size(max = FALSE)
-
 source("helpers.R")
 
 shinyServer(function(input, output, session){
